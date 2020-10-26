@@ -427,3 +427,27 @@ form button {
   text-align: center;
   padding-bottom: 20px;
 }
+
+/* Mobile Views started here */
+@media (max-width: 760px) {
+  nav {
+    padding: 20px 30px;
+  }
+  .links {
+    display: none;
+  }
+  .landing {
+    background-image: url(/images/back-mobile.png);
+    padding: 50px 30px;
+  }
+  .landing h1 {
+    font-size: 16px;
+  }
+  .intro {
+    flex-direction: column;
+  }
+
+  footer {
+    display: none;
+  }
+} ;
