@@ -123,9 +123,9 @@ nav {
 }
 
 .cta {
-  width: 20%;
-  margin: auto;
-  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   /* margin-top: 10px; */
 }
 
@@ -438,13 +438,35 @@ form button {
   }
   .landing {
     background-image: url(/images/back-mobile.png);
-    padding: 30px 0px;
+    padding: 30px 30px;
   }
   .landing h1 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .landing h2 {
     font-size: 11px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cta a {
+    font-size: 11px;
+  }
+
+  .learn {
+    justify-content: center;
+    padding: 12px 5px;
+    border: 2px solid #fff;
+  }
+  .join {
+    padding: 12px 30px;
+    border: 2px solid #db6400;
+    margin-left: 20px;
   }
   .intro {
     flex-direction: column;
