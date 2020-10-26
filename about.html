@@ -12,6 +12,27 @@
   </head>
   <body class="">
     <!-- Navigation styling begins -->
+    <div class="cover" id="mySidenav">
+      <div class="overlay" onclick="closeNav()"></div>
+      <div class="mobile-links">
+        <div class="img-fluid">
+          <a href="javascript:void(0)" onclick="closeNav()"
+            ><img src="/images/cross.svg" alt=""
+          /></a>
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about" class="active">about</a></li>
+          <li><a href="/activities">activities</a></li>
+          <li><a href="/contact">contact</a></li>
+          <li><a href="/blog">blog</a></li>
+          <li><a href="/join">JOIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- nav  -->
+    <!-- Navigation styling begins -->
     <nav>
       <div class="logo">
         <img
@@ -20,6 +41,9 @@
         />
       </div>
       <div class="links">
+        <a href="javascript:void(0)" onclick="openNav()" class="menu"
+          ><img src="/images/menu.svg" alt=""
+        /></a>
         <a href="/" class="link">Home</a>
         <a href="/about" class="link active">About</a>
         <a href="/activities" class="link">Activities</a>
@@ -198,5 +222,6 @@
         <p>All rights reservered by &copy;summitafric.org 2020</p>
       </div>
     </footer>
+    <script src="/js/index.js"></script>
   </body>
 </html>
