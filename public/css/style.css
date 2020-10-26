@@ -433,6 +433,9 @@ form button {
   nav {
     padding: 20px 30px;
   }
+  .logo img {
+    width: 25%;
+  }
   .links {
     display: none;
   }
@@ -468,6 +471,8 @@ form button {
     border: 2px solid #db6400;
     margin-left: 20px;
   }
+
+  /* intro */
   .intro {
     flex-direction: column;
   }
