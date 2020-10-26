@@ -408,3 +408,14 @@ form button {
   border-radius: 5px;
   color: #fff;
 }
+/* join styling */
+.join-page {
+  justify-content: center;
+}
+.join-page form {
+  width: 100%;
+}
+
+.join-page .right {
+  padding-left: 0;
+}

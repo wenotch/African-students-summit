@@ -23,30 +23,19 @@
         <a href="/" class="link">Home</a>
         <a href="/about" class="link">About</a>
         <a href="/activities" class="link">Activities</a>
-        <a href="/contact" class="link active">Contact</a>
+        <a href="/contact" class="link">Contact</a>
         <a href="/blog" class="link">Blog</a>
-        <a href="/join" class="link">Join</a>
+        <a href="/join" class="link active">Join</a>
       </div>
     </nav>
 
     <!-- navigation ends -->
-    <main>
-      <div class="left">
-        <h3>CONTACT US</h3>
-        <p>
-          We understand you may have questions. feel free to reach us through
-          any of channels
-        </p>
-        <ul>
-          <li>University of Nigeria, Nsukka, Enugu State, Nigeria</li>
-          <li>+2348033364555</li>
-          <li>socioeconomicsummit@gmail.com</li>
-        </ul>
-        <a href="">Facebook</a><a href="">Youtube</a><a href="">Instgram</a>
-      </div>
+    <main class="join-page">
       <div class="right">
-        <form action="/contact-route" method="POST">
+        <form action="/join-route" method="POST">
           <input type="text" name="name" placeholder="Full Name" />
+          <input type="text" name="Instution" placeholder="Institution" />
+          <input type="text" name="course" placeholder="Course of Study" />
           <input type="email" name="email" placeholder="Email" />
           <textarea
             name="message"
