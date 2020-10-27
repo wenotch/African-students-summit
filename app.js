@@ -21,6 +21,10 @@ app.get("/activities", function (req, res) {
     res.sendFile(__dirname + "/activities.html");
   });
   
+  app.get("/blog", function (req, res) {
+    res.sendFile(__dirname + "/blog.html");
+  });
+  
 app.get("/contact", function (req, res) {
     res.sendFile(__dirname + "/contact.html");
   });
