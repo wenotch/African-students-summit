@@ -469,7 +469,9 @@ form button {
 .menu {
   display: none;
 }
-
+.cover {
+  display: none;
+}
 /* Mobile Views started here */
 @media (max-width: 760px) {
   .cover {
@@ -548,10 +550,11 @@ form button {
   }
   .landing {
     background-image: url(/images/back-mobile.png);
-    padding: 30px 25px;
+    padding: 100px 25px;
   }
   .landing h1 {
     font-size: 15px;
+    line-height: 25px;
   }
   .landing h2 {
     font-size: 11px;
