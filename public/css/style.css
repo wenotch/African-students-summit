@@ -139,14 +139,14 @@ nav {
 }
 .learn {
   border: 3px solid #fff;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 2px;
 }
 
 .join {
   border: #db6400 3px solid;
   margin-left: 35px;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: #db6400;
   padding: 12px 40px;
 }
@@ -688,8 +688,9 @@ form button {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
   }
   .footer-right li img {
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 } ;
